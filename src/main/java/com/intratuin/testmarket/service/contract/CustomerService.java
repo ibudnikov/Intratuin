@@ -1,6 +1,6 @@
-package nl.intratuin.service.contract;
+package com.intratuin.testmarket.service.contract;
 
-import nl.intratuin.entity.Customer;
+import com.intratuin.testmarket.entity.Customer;
 
 import java.util.List;
 

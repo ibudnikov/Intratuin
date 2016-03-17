@@ -1,4 +1,4 @@
-package nl.intratuin;
+package com.intratuin.testmarket;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 

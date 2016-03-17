@@ -1,6 +1,6 @@
-package nl.intratuin.dao.contract;
+package com.intratuin.testmarket.dao.contract;
 
-import nl.intratuin.entity.Customer;
+import com.intratuin.testmarket.entity.Customer;
 
 import java.util.List;
 

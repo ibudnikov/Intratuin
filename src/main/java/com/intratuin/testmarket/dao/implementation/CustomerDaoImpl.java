@@ -1,9 +1,8 @@
-package nl.intratuin.dao.implementation;
+package com.intratuin.testmarket.dao.implementation;
 
-import nl.intratuin.dao.contract.CustomerDao;
-import nl.intratuin.entity.Customer;
+import com.intratuin.testmarket.dao.contract.CustomerDao;
+import com.intratuin.testmarket.entity.Customer;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

@@ -1,4 +1,4 @@
-package nl.intratuin;
+package com.intratuin.testmarket;
 
 public enum Message {
     ERROR_REGISTRATION("Sorry, this email address is already registered, choose another."),

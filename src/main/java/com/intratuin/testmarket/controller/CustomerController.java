@@ -1,10 +1,9 @@
-package nl.intratuin.controller;
+package com.intratuin.testmarket.controller;
 
-import nl.intratuin.Credentials;
-import nl.intratuin.Message;
-import nl.intratuin.entity.Customer;
-import nl.intratuin.service.contract.CustomerService;
-import org.springframework.transaction.annotation.Transactional;
+import com.intratuin.testmarket.Credentials;
+import com.intratuin.testmarket.service.contract.CustomerService;
+import com.intratuin.testmarket.Message;
+import com.intratuin.testmarket.entity.Customer;
 import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;

@@ -1,4 +1,4 @@
-package nl.intratuin;
+package com.intratuin.testmarket;
 
 public class Credentials {
     private String password;

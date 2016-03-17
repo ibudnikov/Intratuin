@@ -1,8 +1,8 @@
-package nl.intratuin.service.implementation;
+package com.intratuin.testmarket.service.implementation;
 
-import nl.intratuin.dao.contract.CustomerDao;
-import nl.intratuin.entity.Customer;
-import nl.intratuin.service.contract.CustomerService;
+import com.intratuin.testmarket.dao.contract.CustomerDao;
+import com.intratuin.testmarket.service.contract.CustomerService;
+import com.intratuin.testmarket.entity.Customer;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;

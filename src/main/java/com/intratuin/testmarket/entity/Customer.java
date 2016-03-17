@@ -1,35 +1,49 @@
-package nl.intratuin.entity;
+package com.intratuin.testmarket.entity;
 
 import javax.persistence.*;
 import java.sql.Date;
 
 @Entity
-@Table(name = "customer")
+@Table(name = "CUSTOMER")
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CUSTOMER_ID")
     private int id;
+
     @Column(name = "CUSTOMER_NAME")
     private String firstName;
+
     @Column(name = "CUSTOMER_SURNAME")
     private String lastName;
+
     @Column(name = "EMAIL_ADDRESS")
     private String email;
+
     @Column(name = "PASSWORD")
     private String password;
+
     @Column(name = "CELLPHONE_NUMBER")
     private String phoneNumber;
+
     @Column(name = "DATE_OF_BIRTH")
     private java.sql.Date birthday;
+
     @Column(name = "CITY")
     private String city;
+
     @Column(name = "STREET_NAME")
     private String streetName;
+
     @Column(name = "HOUSE_NUMBER")
     private int houseNumber;
+
     @Column(name = "AREA_CODE")
     private String postalCode;
+
+    //TODO:unique field
+    //TODO:null or not null(maybe in construxtor)
+    //TODO:gender
 
     public Customer() {
     }
